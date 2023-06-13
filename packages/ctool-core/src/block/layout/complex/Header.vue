@@ -57,7 +57,6 @@ import {getTool, toolExists, FeatureInterface, categories, getCategory, category
 import Search from "../../Search.vue";
 import Tools from "../../Tools.vue";
 import {nextTick, watch} from "vue";
-import Github from "../../Github.vue";
 
 const storeOperate = useOperate()
 const storeSetting = useSetting()

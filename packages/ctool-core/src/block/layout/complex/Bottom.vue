@@ -1,7 +1,6 @@
 <template>
     <div class="ctool-bottom">
         <div class="ctool-bottom-left">
-            <Notice />
         </div>
         <Align class="ctool-bottom-right" :gap="'large'">
             <Icon hover :size="18" name="clear" @click="event.dispatch('content_clear')" :tooltip="$t('main_content_clear')"/>
@@ -30,7 +29,6 @@ import useOperate from "@/store/operate";
 import useSetting from "@/store/setting";
 import History from "../../History.vue"
 import platform from "@/helper/platform"
-import Notice from "../../Notice.vue"
 import {openUrl} from "@/helper/helper"
 import getHistoryInstance from "@/helper/history";
 import {onMounted, onUnmounted} from "vue";
